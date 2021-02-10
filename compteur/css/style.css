@@ -1,0 +1,102 @@
+body {
+font-family:arial;
+background-image:url(math.jpg);
+}
+
+
+/* Mise en forme du bloc avec le chrono et le bouton*/
+.bloc1 {
+background-color:white;
+width:20%;
+height:3%;
+padding:2%;
+padding-top:5%;
+border-radius:30px;
+text-align:center;
+font-size:150%;
+float:left;
+border:#ec4184 solid 3px;
+
+}
+
+#bouton{
+height:50%;
+width:50%;
+text-align:center;
+margin:3%;
+}
+
+/* Mise en forme du bloc calcul*/
+.bloc2 {
+background-color:white;
+width:50%;
+height:50%;
+padding:2%;
+border-radius:30px;
+font-size:120%;
+float:left;
+margin:2%;
+border:#ec4184 solid 3px;
+
+}
+
+.sousbloc {
+height:5%;
+width:50%;
+margin-right:25%;
+margin-left:25%;
+text-align:center;
+border:#3b88c3 solid 3px;
+border-radius:30px;
+}
+
+.sousbloc div {
+height:5%;
+width:5%;
+margin:2%;
+display:inline-block;
+}
+
+
+.egal{
+margin-top:2%;
+margin-left:50%;
+}
+
+
+input {
+height:10%;
+width:40%;
+padding:3%;
+margin-right:25%;
+margin-left:25%;
+font-size:100%;
+border-radius:30px;
+}
+
+#ok{
+height:10%;
+width:10%;
+float:right;
+margin:5%;
+}
+
+/* Mise en forme du bloc avec la note*/
+
+#note {
+height:30%;
+width:30%;
+padding:2%;
+background-color:white;
+float:right;
+text-align:center;
+border-radius:30px;
+border:#ec4184 solid 3px;
+font-size:150%;
+}
+
+
+
+
+
+

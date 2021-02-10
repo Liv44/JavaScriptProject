@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Calcul Mental</title>
+		<link rel="stylesheet" href='./css/style.css' type="text/css" media="screen" />
+		<script type= "text/javascript" src= "./js/monscript.js"></script>
+	</head>
+	<body>
+	
+	<!-- Bloc décompte des secondes -->
+	
+	<div class='bloc1'>
+
+		<div id='secondes'>
+			<p>Vous avez 10 secondes.</br>Cliquez sur le bouton ou sur la touche espace pour commencer.</p>
+		</div>
+	
+		<img id='bouton' src='./imgs/start.png' alt='start'/>
+	
+	</div>
+	
+	<!-- Bloc note sur 10 -->
+	
+	<div id='note'>
+		<p> /10</p>
+	</div>
+	
+	<!-- Bloc calcul -->
+	
+	<div class='bloc2'>
+	
+		<div class='sousbloc'>
+			<div class='chiffres'>
+				<p id='chiffre1'></p>
+			</div>
+	
+			<div class='signe'>
+				<p id='signe'></p>
+			</div>
+	
+			<div class='chiffres'>
+				<p id='chiffre2'></p>
+			</div>
+	
+		</div>
+		
+		<div class='egal'>
+			<p>=</p>
+		</div>
+
+		<input type="text" id='saisie' placeholder="résultat"></input>
+
+		<img id='ok' src='./imgs/ok.png' alt='ok'/>
+			
+	</div>
+	
+	</body>
+</html>
