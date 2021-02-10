@@ -1,0 +1,163 @@
+/*!
+ * Start Bootstrap - Freelancer v5.0.4 (https://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
+ */
+
+
+/*mise en forme de mes éléments */
+
+.global {
+text-align:center;
+margin:0 auto;
+
+}
+
+/* mise en forme du bouton CHOIX */
+#choix {
+height:5%;
+width:15%;
+margin : 0 auto;
+border: #fff solid 3px;
+padding:1%;
+font-size:120%;
+border-radius: 10px;
+}
+
+/* mise en forme du input */
+input {
+width:25%;
+padding:1%;
+font-size:100%;
+margin:2%;
+border-radius: 10px;
+text-align:center;
+}
+
+/* mise en forme du bouton convertir */
+#convertir {
+width:35%;
+height:4%;
+padding:2%;
+margin: 0 auto;
+background-color:#fff;
+border-radius: 10px;
+color:#2C3E50;
+font-weight: 700;
+font-family: 'Montserrat';
+font-size: 150%;
+display: flex;
+}
+
+/* mise en forme du résultat */
+.texte {
+margin: auto;
+}
+
+.resultat {
+font-size:200%;
+margin:3%;
+
+}
+
+
+
+
+/* Bootstrap */
+body {
+  font-family: 'Lato';
+}
+
+		/* barre de navigation */
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+
+#mainNav .navbar-brand {
+  color: #fff;
+}
+		/* titre */
+
+div.masthead {
+  padding-top: calc(6rem + 72px);
+  padding-bottom: 6rem;
+}
+
+div.masthead h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+		/* couleurs */
+
+.bg-primary {
+  background-color: #18BC9C !important;
+}
+
+.bg-secondary {
+  background-color: #2C3E50 !important;
+}
+
+.text-primary {
+  color: #18BC9C !important;
+}
+
+.text-secondary {
+  color: #2C3E50 !important;
+}
+
+.btn-primary {
+  background-color: #18BC9C;
+  border-color: #18BC9C;
+}
+
+	/* décoration étoile*/
+
+hr.star-light,
+hr.star-dark {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr.star-light:after,
+hr.star-dark:after {
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f005';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2em;
+}
+
+hr.star-light {
+  border-color: #fff;
+}
+
+hr.star-light:after {
+  color: #fff;
+  background-color: #18BC9C;
+}
+
+hr.star-dark {
+  border-color: #2C3E50;
+}
+
+hr.star-dark:after {
+  color: #2C3E50;
+  background-color: white;
+}
+
+
+
